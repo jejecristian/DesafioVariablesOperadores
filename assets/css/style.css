@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    margin-bottom: 5rem;
+}
+
+#carouselExampleControls{
+    height: 500px;
+}
+
+.card{
+    background-color: grey;
+}
+
+@media (max-width: 575px){
+    section {
+        margin-bottom: 18rem;
+    }
+    #carouselExampleControls{
+        height: 200px;
+    }
+    .card-text{
+        display: none ;
+        
+    }
+}
